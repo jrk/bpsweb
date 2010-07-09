@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <center><title>Beyond Programmable Shading 2010</title></center>
+    <style type="text/css">
+      ol.padded li { margin: 10px 0px; }
+    </style>
+    <body>
+
+      <br />
+      <table>
+	<tr><center>
+	    <td id=centercontent>
+	      <H3 style="MARGIN-TOP: 0px">SIGGRAPH 2010: Beyond Programmable Shading</H3>
+	      <P style="font-style: italic">Welcome to the course notes and
+		supplementary materials for the full-day
+		<A href="http://www.siggraph.org/s2010">SIGGRAPH 2010</A>
+		Beyond Programmable Shading course.</P>
+
+	      <P style="font-style: italic">The course will be held at
+	      SIGGRAPH 2010 on Thursday, July 29, 2010 in room 515 AB.</P>
+	      
+	      <a name="abstract"><h4>Overview</h4></a>
+<!-- 
+<p>
+There are strong indications that the future of interactive graphics
+programming is a more flexible model than today's OpenGL/Direct3D
+pipelines. Graphics developers need a basic understanding of how to
+combine emerging parallel programming techniques and more flexible
+graphics processors with the traditional interactive rendering
+pipeline. The first half of the course introduces the trends
+and directions in this emerging field. Topics include: parallel
+graphics architectures, parallel programming models for graphics, and
+game-developer investigations of the use of these new capabilities in
+future rendering engines.
+</p>
+<p>
+The second half of the course has leaders from graphics hardware vendors, game development, and academic
+research present case studies that show how general parallel
+computation is being combined with the traditional graphics pipeline
+to boost image quality and spur new graphics algorithm
+innovation. Each case study discusses the mix of parallel programming
+constructs used, details of the graphics algorithm, and how the
+rendering pipeline and computation interact to achieve the technical
+goals. The focus is on what currently can be done, how it is done, and
+near-future trends. Topics include volumetric and hair lighting,
+alternate rendering pipelines including ray tracing and micropolygon
+rendering, in-frame data structure construction, and complex image
+processing. The course concludes with a panel, moderated by the creator of OpenGL Kurt Akeley, on the role of fixed function hardware in future graphics architectures
+</p>
+              </p>
+	      <p>
+		The course presenters are experts on advanced rendering, graphics hardware, and 
+		parallel computing for graphics from academia
+		and industry, and have presented papers and tutorials
+		on the topic at SIGGRAPH, High Performance Graphics,
+		Supercomputing, IEEE Visualization, and elsewhere.
+	      </p>
+-->
+
+	      <a name="organizers"><h4>Course Organizers</h4></a>
+	      <p>
+		<a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel<br />
+		<a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD<br />
+	      </p>
+
+	      <a name="outline"><h4>Course Notes (Talks will be posted on the day of the course)</h4></a>
+	      <h4>Beyond Programmable Shading I</h4>
+
+	      
+	      <OL class="padded">
+		<LI>
+		  Looking Back, Looking Forward, Why and How is Interactive Rendering Changing, 9:00&ndash;9:20<br />
+                  <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+		</LI>
+
+		<LI>
+		  Five Major Challenges in Interactive Rendering, 9:20&ndash;9:45<br /> 
+                  <a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE
+		</LI>
+
+		<LI>
+		  Running Code at a Teraflop: How a GPU Shader Core Works, 9:45&ndash;10:15 <br />
+		  <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford University
+		  (<a href="http://gates381.blogspot.com">Kayvon's graphics blog</a>)
+		</LI>
+
+		<LI>
+		  Parallel Programming for Real-Time Graphics, 10:15&ndash;10:45 <br />
+		  <a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel
+		</LI>
+
+		<LI>
+		  DirectCompute Use in Real-Time Rendering Products, 10:45&ndash;11:15 <br />
+		  <a href="http://www.linkedin.com/ppl/webprofile?vmi=&id=6706578&pvs=pp&authToken=A363&authType=name&locale=en_US&trk=ppro_viewmore&lnk=vw_pprofile">Chas Boyd</a>, Microsoft
+		</LI>
+
+		<LI>
+		  Surveying Real-Time Beyond Programmable Shading Rendering Algorithms, 11:15&ndash;11:45 <br />
+                  <a href="http://luebke.us/">David Luebke</a>, NVIDIA Research
+		</LI>
+
+		<LI>
+		  Bending the Graphics Pipeline,  11:45&ndash;12:15<br />
+                  <a href="http://repi.blogspot.com/">Johan Andersson</a>, <a href="http://www.dice.se/">DICE</a>
+		</LI>
+	      </OL>
+
+
+	      <h4>Beyond Programmable Shading II</h4>
+	      
+	      <OL class="padded">
+		<LI>
+		  Welcome and Re-Introduction, 2:00&ndash;2:05 <br />
+		  <a href="http://graphics.idav.ucdavis.edu/~lefohn//">Aaron Lefohn</a>, Intel
+		</LI>
+
+		<LI>
+		  Keeping Many Cores Busy: Scheduling the Graphics Pipeline, 2:05&ndash;2:35pm <br />
+                  <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
+		</LI>
+
+		<LI>
+		  Evolving the Direct3D Pipeline for Real-Time Micropolygon Rendering, 2:35&ndash;3:10 <br />
+                  <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford
+		</LI>
+
+                <LI>
+                  Decoupled Sampling for Real-Time Graphics Pipelines, 3:10&ndash;3:30 <br />
+                  <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
+                </LI>
+
+		<LI>
+                  Deferred Rendering for Current and Future Rendering Pipelines, 3:30&ndash;3:50 <br />
+                  <a href="http://portfolio.punkuser.net/">Andrew Lauritzen</a>, Intel
+		</LI>
+
+                <LI>
+                  PantaRay: A Case Study in GPU Ray-Tracing for Movies, 3:50&ndash;4:15 <br />
+                  Luca Fascione, WETA and <a href="http://research.nvidia.com/users/jacopo-pantaleoni">Jacopo Pantaleoni</a>, NVIDIA Research
+                </LI>
+
+                <LI>
+                  Wrapup: What's Next for Interactive Rendering Research?, 4:15&ndash;4:30 <br />
+                  <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+                </LI>
+
+		<LI>
+		  Panel: "What Role Will Fixed-Function Hardware Play in Future Graphics Architectures?", 4:30&ndash;5:15<br />
+                  Moderator<br />
+                  <a href="http://research.microsoft.com/en-us/people/kakeley/">Kurt Akeley</a>, Microsoft Research<br />
+                  <br />
+                  Panelists<br />
+                  <a href="http://www.cs.unc.edu/~molnar/">Steve Molnar</a>, NVIDIA<br />
+                  <a href="http://www.linkedin.com/pub/david-blythe/4/664/472">David Blythe</a>, Intel<br />
+                  <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+                  <a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE<br />
+                  <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford<br />
+		</LI>
+	      </ol>
+	      
+	    </TD> 
+</TR></TBODY></TABLE></BODY></HTML>
