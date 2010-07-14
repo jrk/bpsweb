@@ -10,9 +10,11 @@
       #header { font-size: 130%; }
       #header p { font-style: italic; }
       #header h1, #header h2 { margin: 0; }
+      dl { margin: 0; }
       dt { margin-top: 0.5em; }
       dd { margin-left: 1em; }
       #content { margin: 1em 10%; }
+      table.schedule td { padding: 0.5em; vertical-align: top; }
     </style>
   </head>
   <body>
@@ -28,11 +30,11 @@
         Thursday, July 29, 2010<br/>
         Room 515AB
       </div>
-  	  <p>
-  	    Welcome to the course notes and supplementary materials for the full-day
+      <p>
+        Welcome to the course notes and supplementary materials for the full-day
         <a href="http://www.siggraph.org/s2010">SIGGRAPH 2010</a> Beyond
         Programmable Shading course.
-  		</p>
+      </p>
     </div>
     
     <div id="abstract"><a name="abstract"/>
@@ -88,93 +90,183 @@
     <div id="organizers"><a name="organizers"/>
       <h2>Course Organizers</h2>
       <p>
-    		<a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel<br />
-    		<a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD<br />
+        <a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel<br />
+        <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD<br />
       </p>
     </div>
     
     <div id="notes"><a name="notes"/>
-	    <h2>Course Notes (Talks will be posted on the day of the course)</h2>
+      <h2>Course Notes (Talks will be posted on the day of the course)</h2>
     </div>
 
     <div id="outline"><a name="outline"/>
       <h2>Beyond Programmable Shading I</h2>
-	    <ol class="padded">
-    		<li>
-    		  Looking Back, Looking Forward, Why and How is Interactive Rendering Changing, 9:00&ndash;9:20<br />
-          <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
-    		</li>
-    		<li>
-    		  Five Major Challenges in Interactive Rendering, 9:20&ndash;9:45<br /> 
-          <a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE
-    		</li>
-    		<li>
-    		  Running Code at a Teraflop: How a GPU Shader Core Works, 9:45&ndash;10:15 <br />
-    		  <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford University
-    		  (<a href="http://gates381.blogspot.com">Kayvon's graphics blog</a>)
-    		</li>
-    		<li>
-    		  Parallel Programming for Real-Time Graphics, 10:15&ndash;10:45 <br />
-    		  <a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel
-    		</li>
-    		<li>
-    		  DirectCompute Use in Real-Time Rendering Products, 10:45&ndash;11:15 <br />
-    		  <a href="http://www.linkedin.com/ppl/webprofile?vmi=&id=6706578&pvs=pp&authToken=A363&authType=name&locale=en_US&trk=ppro_viewmore&lnk=vw_pprofile">Chas Boyd</a>, Microsoft
-    		</li>
-    		<li>
-    		  Surveying Real-Time Beyond Programmable Shading Rendering Algorithms, 11:15&ndash;11:45 <br />
-          <a href="http://luebke.us/">David Luebke</a>, NVIDIA Research
-    		</li>
-    		<li>
-    		  Bending the Graphics Pipeline,  11:45&ndash;12:15<br />
-          <a href="http://repi.blogspot.com/">Johan Andersson</a>, <a href="http://www.dice.se/">DICE</a>
-    		</li>
-      </ol>
-
+      <table class="schedule">
+        <tr>
+          <td>
+            9:00&ndash;9:20
+          </td>
+          <td>
+            Looking Back, Looking Forward, Why and How is Interactive Rendering Changing<br>
+            <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            9:20&ndash;9:45
+          </td>
+          <td>
+            Five Major Challenges in Interactive Rendering<br>
+            <a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE
+          </td>
+        </tr>
+        <tr>
+          <td>
+            9:45&ndash;10:15
+          </td>
+          <td>
+            Running Code at a Teraflop: How a GPU Shader Core Works<br>
+            <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford University (<a href="http://gates381.blogspot.com">Kayvon's graphics blog</a>)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            10:15&ndash;10:45
+          </td>
+          <td>
+            Parallel Programming for Real-Time Graphics<br>
+            <a href="http://graphics.cs.ucdavis.edu/~lefohn/">Aaron Lefohn</a>, Intel
+          </td>
+        </tr>
+        <tr>
+          <td>
+            10:45&ndash;11:15
+          </td>
+          <td>
+            DirectCompute Use in Real-Time Rendering Products<br>
+            <a href="http://www.linkedin.com/ppl/webprofile?vmi=&amp;id=6706578&amp;pvs=pp&amp;authToken=A363&amp;authType=name&amp;locale=en_US&amp;trk=ppro_viewmore&amp;lnk=vw_pprofile">Chas Boyd</a>, Microsoft
+          </td>
+        </tr>
+        <tr>
+          <td>
+            11:15&ndash;11:45
+          </td>
+          <td>
+            Surveying Real-Time Beyond Programmable Shading Rendering Algorithms<br>
+            <a href="http://luebke.us/">David Luebke</a>, NVIDIA Research
+          </td>
+        </tr>
+        <tr>
+          <td>
+            11:45&ndash;12:15
+          </td>
+          <td>
+            Bending the Graphics Pipeline<br>
+            <a href="http://repi.blogspot.com/">Johan Andersson</a>, <a href="http://www.dice.se/">DICE</a>
+          </td>
+        </tr>
+      </table>
+      
       <h2>Beyond Programmable Shading II</h2>
-      <ol class="padded">
-    		<li>
-    		  Welcome and Re-Introduction, 2:00&ndash;2:05 <br />
-    		  <a href="http://graphics.idav.ucdavis.edu/~lefohn//">Aaron Lefohn</a>, Intel
-    		</li>
-      	<li>
-      	  Keeping Many Cores Busy: Scheduling the Graphics Pipeline, 2:05&ndash;2:35pm <br />
-          <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
-      	</li>
-    		<li>
-    		  Evolving the Direct3D Pipeline for Real-Time Micropolygon Rendering, 2:35&ndash;3:10 <br />
-          <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford
-    		</li>
-        <li>
-          Decoupled Sampling for Real-Time Graphics Pipelines, 3:10&ndash;3:30 <br />
-          <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
-        </li>
-    		<li>
-          Deferred Rendering for Current and Future Rendering Pipelines, 3:30&ndash;3:50 <br />
-          <a href="http://portfolio.punkuser.net/">Andrew Lauritzen</a>, Intel
-    		</li>
-        <li>
-          PantaRay: A Case Study in GPU Ray-Tracing for Movies, 3:50&ndash;4:15 <br />
-          Luca Fascione, WETA and <a href="http://research.nvidia.com/users/jacopo-pantaleoni">Jacopo Pantaleoni</a>, NVIDIA Research
-        </li>
-        <li>
-          Wrapup: What's Next for Interactive Rendering Research?, 4:15&ndash;4:30 <br />
-          <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
-        </li>
-    		<li>
-          <dl>
-            Panel: What Role Will Fixed-Function Hardware Play in Future Graphics Architectures?, 4:30&ndash;5:15
-            <dt>Moderator</dt>
-            <dd><a href="http://research.microsoft.com/en-us/people/kakeley/">Kurt Akeley</a>, Microsoft Research</dd>
-            <dt>Panelists</dt>
-            <dd><a href="http://www.cs.unc.edu/~molnar/">Steve Molnar</a>, NVIDIA</dd>
-            <dd><a href="http://www.linkedin.com/pub/david-blythe/4/664/472">David Blythe</a>, Intel</dd>
-            <dd><a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD</dd>
-            <dd><a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE</dd>
-            <dd><a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford</dd>
-          </dl>
-    		</li>
-      </ol>
+      <table class="schedule">
+        <tr>
+          <td>
+            2:00&ndash;2:05
+          </td>
+          <td>
+            Welcome and Re-Introduction<br>
+            <a href="http://graphics.idav.ucdavis.edu/~lefohn//">Aaron Lefohn</a>, Intel
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2:05&ndash;2:35
+          </td>
+          <td>
+            Keeping Many Cores Busy: Scheduling the Graphics Pipeline<br>
+            <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2:35&ndash;3:10
+          </td>
+          <td>
+            Evolving the Direct3D Pipeline for Real-Time Micropolygon Rendering<br>
+            <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3:10&ndash;3:30
+          </td>
+          <td>
+            Decoupled Sampling for Real-Time Graphics Pipelines<br>
+            <a href="http://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, MIT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3:30&ndash;3:50
+          </td>
+          <td>
+            Deferred Rendering for Current and Future Rendering Pipelines<br>
+            <a href="http://portfolio.punkuser.net/">Andrew Lauritzen</a>, Intel
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3:50&ndash;4:15
+          </td>
+          <td>
+            PantaRay: A Case Study in GPU Ray-Tracing for Movies<br>
+            Luca Fascione, WETA and <a href="http://research.nvidia.com/users/jacopo-pantaleoni">Jacopo Pantaleoni</a>, NVIDIA Research
+          </td>
+        </tr>
+        <tr>
+          <td>
+            4:15&ndash;4:30
+          </td>
+          <td>
+            Wrapup: What's Next for Interactive Rendering Research?<br>
+            <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            4:30&ndash;5:15
+          </td>
+          <td>
+            Panel: What Role Will Fixed-Function Hardware Play in Future Graphics Architectures?
+            <dl>
+              <dt>
+                Moderator
+              </dt>
+              <dd>
+                <a href="http://research.microsoft.com/en-us/people/kakeley/">Kurt Akeley</a>, Microsoft Research
+              </dd>
+              <dt>
+                Panelists
+              </dt>
+              <dd>
+                <a href="http://www.cs.unc.edu/~molnar/">Steve Molnar</a>, NVIDIA
+              </dd>
+              <dd>
+                <a href="http://www.linkedin.com/pub/david-blythe/4/664/472">David Blythe</a>, Intel
+              </dd>
+              <dd>
+                <a href="http://graphics.stanford.edu/~mhouston/">Mike Houston</a>, AMD
+              </dd>
+              <dd>
+                <a href="http://repi.blogspot.com/">Johan Andersson</a>, DICE
+              </dd>
+              <dd>
+                <a href="http://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>, Stanford
+              </dd>
+            </dl>
+          </td>
+        </tr>
+      </table>
     </div>
     </div>
   </body>
